@@ -1,0 +1,24 @@
+1. Was versteht man unter einem Datenbankschema?
+- Das Datenbankschema ist eine anschauliche Darstellung einer Datenbank. Man kann es auch als Regelwerk einer Datenbank bezeichnen
+
+2. Unterschied Datenbank und DBMS:
+-Das Datenbankmanagementsystem ist eine Software, die zur Datenverwaltung benötigt wird. Die Datenbank meint die eigentlichen Daten, also alle Relationen und Mengen von Tupeln
+
+3. Was für Arten von Integritätsbedingungen, die DBMSe unterstützen, kennen Sie?
+- Es gibt NOT NULL constraints, unique constraints, primary key constraints, foreign key constraints und check constraints
+
+4. Code für die Tabelle:
+
+create table Buch (Titel varchar(80), Genre varchar(40), Autor varchar(40), Preis integer);
+
+insert into Buch values('Es', 'Horror', 'King', '19');
+
+insert into Buch values('Faust', 'Drama', 'Goethe', '6');
+
+insert into Buch values('Homo Faber', 'Bericht', 'Frisch', '8');
+
+insert into Buch values('Harry Potter', 'Fantasy', 'Rowling', '12');
+
+SELECT * from Buch;
+
+//Mit diesem Code habe ich im Online Editor die Count, select, where und group by klausel geübt
